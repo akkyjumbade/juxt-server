@@ -1,0 +1,29 @@
+{
+    "name": "akshayjumbade/laravel-preset",
+    "authors": [
+        {
+            "name": "devops0019",
+            "email": "devops0019@gmail.com"
+        },
+        {
+            "name": "akshay",
+            "email": "akkyjumbade@gmail.com"
+        }
+    ],
+    "require": {
+        "tymon/jwt-auth": "1.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LaravelPreset\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\LaravelPreset\\LaravelPresetServiceProvider"
+            ]
+        }
+    }
+}
